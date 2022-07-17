@@ -38,17 +38,9 @@ header {
 
 section {
   display: flex;
-  height: 100vh;
+  height: 95vh;
   justify-content: center;
   align-items: center;
-
-    /*background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    width: 300px;
-    margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
-    */
 }
 
 #calculadora {
@@ -138,11 +130,11 @@ section {
 p a {
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 footer {
-    color: var(--cor2);
+    color: black;
     text-align: center;
     font-style: italic;
     padding: 20px;
