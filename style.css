@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Sarabun', sans-serif;
+
+}
+
+:root {
+    --cor1: #D8D8D8;
+    --cor2: white;
+    --cor3: #FFFFEA;
+    --cor4: #FF5E5B;
+
+}
+
+body {
+    display: flex;
+    background-color:var(--cor1);
+    font: normal 1em 'Maven Pro';
+    flex-direction: column;
+}
+
+header {
+    padding: 20px;
+    color: var(--cor2);
+    text-align: center;
+}
+
+section {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+    /*background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
+    */
+}
+
+#calculadora {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--cor3);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.425);
+    
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 80%;
+    height: 50px;
+    font: bold 2.5rem 'Sarabun';
+    margin-bottom: 25px;
+    border-bottom: 3px solid black;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+}
+
+.input input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    outline: 0;
+    font: bold 1.5rem 'Maven Pro';
+    text-align: center;
+}
+
+.input label {
+    font: bold 1.5rem 'Maven Pro';
+}
+
+#calcular {
+    margin-top: 20px;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    flex-direction: column;
+    outline: none;
+    font: bold 1.2rem 'Maven Pro';
+    padding: 5px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--cor4);
+    color: var(--cor2);
+}
+
+#resultado{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font: italic 1.5rem 'Maven Pro';
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
+    background-color: var(--cor4
+    );
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+    color: white;
+    
+}
+
+
+p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer {
+    color: var(--cor2);
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+    font-size: .8em;
+}
